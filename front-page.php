@@ -12,7 +12,7 @@ get_header();
 
 $hero_video_id  = absint( get_theme_mod( 'christian_motion_hero_video', 0 ) );
 $hero_poster_id = absint( get_theme_mod( 'christian_motion_hero_poster', 0 ) );
-$hero_video_url  = $hero_video_id ? wp_get_attachment_url( $hero_video_id ) : get_template_directory_uri() . '/assets/video/christian-steitz-showreel.mp4';
+$hero_video_url  = $hero_video_id ? wp_get_attachment_url( $hero_video_id ) : get_template_directory_uri() . '/assets/video/christian-steitz-hero-showreel_2.mp4';
 $hero_video_mime = $hero_video_id ? ( get_post_mime_type( $hero_video_id ) ?: 'video/mp4' ) : 'video/mp4';
 $hero_poster     = $hero_poster_id ? wp_get_attachment_image_url( $hero_poster_id, 'full' ) : get_template_directory_uri() . '/assets/images/hero-showreel-poster.jpg';
 $hero_name      = get_theme_mod( 'christian_motion_hero_name', 'Christian Steitz' );

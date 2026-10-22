@@ -1,0 +1,89 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "52rem",
+      "wideSize": "94rem"
+    },
+    "color": {
+      "custom": true,
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "sky", "color": "#c9d7dc", "name": "Sky" },
+        { "slug": "brick", "color": "#ac514e", "name": "Brick" },
+        { "slug": "moss", "color": "#6c7b36", "name": "Moss" },
+        { "slug": "pink", "color": "#f0bdb6", "name": "Pink" },
+        { "slug": "paper", "color": "#fbfaf6", "name": "Paper" },
+        { "slug": "ink", "color": "#151612", "name": "Ink" }
+      ]
+    },
+    "spacing": {
+      "units": ["px", "rem", "em", "%", "vw"],
+      "spacingScale": {
+        "steps": 7
+      }
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "name": "Portfolio Sans",
+          "slug": "portfolio-sans"
+        },
+        {
+          "fontFamily": "\"Arial Narrow\", \"Avenir Next Condensed\", \"Helvetica Neue\", Arial, sans-serif",
+          "name": "Portfolio Condensed",
+          "slug": "portfolio-condensed"
+        },
+        {
+          "fontFamily": "\"Big Shoulders Display\", Arial, sans-serif",
+          "name": "Big Shoulders Display",
+          "slug": "big-shoulders-display"
+        },
+        {
+          "fontFamily": "\"The Seasons\", Gloock, Georgia, serif",
+          "name": "The Seasons",
+          "slug": "the-seasons"
+        },
+        {
+          "fontFamily": "Benedict, \"The Seasons\", Gloock, Georgia, serif",
+          "name": "Benedict",
+          "slug": "benedict"
+        },
+        {
+          "fontFamily": "Advetime, \"Snell Roundhand\", \"Apple Chancery\", cursive",
+          "name": "Advetime",
+          "slug": "advetime"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.78rem", "name": "Small" },
+        { "slug": "medium", "size": "1.15rem", "name": "Medium" },
+        { "slug": "large", "size": "clamp(1.5rem, 2.5vw, 2.5rem)", "name": "Large" },
+        { "slug": "x-large", "size": "clamp(2.5rem, 6vw, 6rem)", "name": "Display" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#fbfaf6",
+      "text": "#151612"
+    },
+    "spacing": {
+      "blockGap": "1.5rem"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--portfolio-sans)",
+      "fontSize": "1.125rem",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "link": {
+        "color": { "text": "#151612" }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/*
+ * Tailwind is compiled locally. Preflight is intentionally omitted because
+ * this classic WordPress theme already provides a carefully tuned reset.
+ */
+@import "tailwindcss/theme";
+@import "tailwindcss/utilities";
+
+@source "../../*.php";
+@source "../../template-parts/*.php";
+@source "../../*.html";
+@source "../js/*.js";

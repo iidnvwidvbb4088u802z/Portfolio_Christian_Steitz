@@ -27,7 +27,7 @@ $about_image    = $about_image_id ? wp_get_attachment_image_url( $about_image_id
 	<div class="site-intro-panel site-intro-panel-top" data-intro-panel-top aria-hidden="true"></div>
 	<div class="site-intro-panel site-intro-panel-bottom" data-intro-panel-bottom aria-hidden="true"></div>
 	<div class="site-intro-stage" data-intro-stage aria-hidden="true">
-		<p class="site-intro-kicker" data-intro-kicker>Multimedia Producer · Switzerland</p>
+		<p class="site-intro-kicker" data-intro-kicker>Multimedia Produzent · Schweiz</p>
 		<p class="site-intro-name">
 			<span class="site-intro-first" data-intro-first><?php echo esc_html( $intro_first ); ?></span>
 			<span class="site-intro-last" data-intro-last><?php echo esc_html( $intro_last ); ?></span>
